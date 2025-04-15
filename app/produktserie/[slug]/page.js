@@ -16,7 +16,7 @@ export default function ProductSeriesPage() {
     if (!slug) return;
 
     const csvUrl =
-      "https://docs.google.com/spreadsheets/d/1qDPYW5Y3aJTFGRAKm8fs_wmBNHqx2RolQ8JEoWWtHaY/gviz/tq?tqx=out:csv";
+      "https://docs.google.com/spreadsheets/d/18gpnsyxr2_yRgjgw_eFhDIicc5RgGLop6iJBrPT6BJ8/export?format=csv";
 
     fetch(csvUrl)
       .then((response) => response.text())

@@ -10,7 +10,7 @@ const Header = () => {
 
   useEffect(() => {
     const csvUrl =
-      "https://docs.google.com/spreadsheets/d/17Vm4WCy55BX9bNwIeASLcaHRiwWpJitnYwOZ54mZNfY/gviz/tq?tqx=out:csv";
+      "https://docs.google.com/spreadsheets/d/1eMOouDlqg0mIqFa6hbuUT2Bxyypt47-NQBZhTB_ordk/export?format=csv";
 
     fetch(csvUrl)
       .then((response) => response.text())
