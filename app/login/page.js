@@ -11,7 +11,7 @@ const Login = () => {
   const router = useRouter();
 
   const users = {
-    Gastrotools: "Gastrotools123",
+    Gastrotools: "Gastrorules123",
     Magasin: "Magagasin123",
     Illums_bolighus: "Illum_illum123",
     Bahne: "Babahne123",
