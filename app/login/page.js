@@ -39,7 +39,7 @@ const Login = () => {
             alt="thumbnail"
             className="cursor-pointer rounded-lg"
           />
-          <h1>Login</h1>
+          <h1>Gastrotools Product Academy</h1>
         </div>
         <form
           onSubmit={handleLogin}
@@ -54,7 +54,7 @@ const Login = () => {
               onChange={(e) => setUsername(e.target.value)}
               placeholder=" Brugernavn"
               required
-              className="border-solid border rounded-sm"
+              className="border-solid border rounded-md"
             />
           </div>
           <div className="flex flex-wrap place-content-between gap-4">
@@ -66,13 +66,13 @@ const Login = () => {
               onChange={(e) => setPassword(e.target.value)}
               placeholder=" Adgangskode"
               required
-              className="border-solid border rounded-sm"
+              className="border-solid border rounded-md"
             />
           </div>
           {error && <p>{error}</p>}
           <button
             type="submit"
-            className="cursor-pointer place-self-center border border-solid w-fit py-2 px-4 rounded-3xl  hover:bg-black-10"
+            className="cursor-pointer text-sm place-self-center border border-solid w-fit py-3 px-8 rounded-4xl text-[#FCFBF7] bg-[#252522] hover:bg-gray-400"
           >
             Log ind
           </button>
