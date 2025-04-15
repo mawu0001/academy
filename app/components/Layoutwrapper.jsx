@@ -1,20 +1,20 @@
 "use client";
-import { useEffect } from "react";
+
 import { usePathname } from "next/navigation";
-import { useRouter } from "next/navigation";
 
 import Header from "./Header";
 import Footer from "./Footer";
 
-export default function LayoutWrapper({ children }) {
+export default function LayoutrWrapper({ children }) {
   const pathname = usePathname();
   const hideHeader = pathname === "/login";
+  const hideFooter = pathname === "/login";
 
   return (
-    <>
+    <div className="w-lvw h-lvh ">
       {!hideHeader && <Header />}
       {children}
-      <Footer />
-    </>
+      {!hideFooter && <Footer />}
+    </div>
   );
 }

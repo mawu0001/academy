@@ -1,5 +1,5 @@
 import "./globals.css";
-import LayoutWrapper from "./components/Layoutwrapper.jsx";
+import Layoutwrapper from "./components/Layoutwrapper.jsx";
 
 export const metadata = {
   title: "Gastrotools Product Academy",
@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="da">
       <body>
-        <LayoutWrapper>{children}</LayoutWrapper>
+        <Layoutwrapper>{children}</Layoutwrapper>
       </body>
     </html>
   );

@@ -29,8 +29,8 @@ const Login = () => {
   };
 
   return (
-    <main className="pt-60">
-      <section className="flex-col place-items-center h-full gap-16">
+    <main className="relative">
+      <section className="flex-col place-items-center gap-16 h-fit absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div className="flex flex-row gap-6 place-items-center">
           <Image
             src="/img/gastrotools_symbol_positive_rgb.png"
