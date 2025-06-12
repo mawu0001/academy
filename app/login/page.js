@@ -15,6 +15,7 @@ const Login = () => {
     Magasin: "Magagasin123",
     Illums_bolighus: "Illum_illum123",
     Bahne: "Babahne123",
+    aarstiderne: "krogerup",
   };
 
   const handleLogin = (e) => {
